@@ -5,6 +5,9 @@ import Card from "./Card"
 function Topic2Page() {
   return (
     <>
+    <h2 style={{ textAlign: "center", marginTop: "50px", borderTop: "2px solid gray", paddingTop: "30px" }}>
+      Topic 2: Props
+     </h2>
       <div className="topic2-props" style={{ display: "flex", justifyContent: "center", marginTop: "50px", gap: "30px", flexWrap: "wrap" }}>
         <MemberCard
           name="Pankaj Warade"
